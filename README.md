@@ -58,7 +58,7 @@ Grensesnittet forklarer at systemet oppretter et midlertidig passord og krever p
 
 ### 5. Oversikt over aktive medlemmer
 
-Videre på samme side vises medlemmene som er knyttet til bedriftskontoen. Bildet viser én eier og to vanlige medlemmer. Eieren har knapper for å fjerne medlemmer fra kontoen.
+Videre på samme side vises medlemmene som er knyttet til bedriftskontoen. Bildet viser en eier og to vanlige medlemmer. Eieren har knapper for å fjerne medlemmer fra kontoen.
 
 Medlemmene deler nettstedene og tilhørende data i den aktive bedriftskontoen. Dette gjør at flere personer kan følge opp de samme nettstedene og rapportene.
 
@@ -100,14 +100,5 @@ Under manuell oppfølging beskrives også hvor endringen vanligvis gjøres, for 
 
 Gruppen testet blant annet registrering, innlogging, kontotilgang, registrering av nettsteder, skanning, rapportvisning, PDF-eksport og e-post. Bachelorrapporten oppgir 173 beståtte automatiserte tester og 1 184 assertions i den siste testkjøringen. Dette var supplert med manuell testing i nettleseren.
 
-Passiv skanning var standardflyten. Ifølge bachelorrapporten ble nettstedet i skjermbildene undersøkt med eierens tillatelse, begrenset til passive observasjoner. Aktiv skanning ble prøvd i et kontrollert DVWA-labmiljø og var ikke aktivert som en vanlig brukerfunksjon.
+Passiv skanning var standardflyten. Nettstedet i skjermbildene ble testet med eierens tillatelse, begrenset til passive observasjoner. Aktiv skanning ble prøvd i et kontrollert DVWA-labmiljø og var ikke aktivert som en vanlig brukerfunksjon.
 
-Løsningen var en bachelorprototype, ikke en ferdig produksjonstjeneste. Betalingsflyten brukte Stripe i testmodus, og planlagte skanninger og Premium-funksjoner var ikke like grundig verifisert som hovedflyten. Brukerens bekreftelse på tillatelse var heller ikke en teknisk verifisering av eierskap til nettstedet.
-
-Funnene i bildene er resultater fra prosjektets testing, ikke en vurdering av nettstedets sikkerhet i dag. Automatiserte skanninger kan gi feilaktige eller ufullstendige funn og erstatter ikke en full sikkerhetsvurdering.
-
-## Hva jeg lærte
-
-Jeg fikk særlig erfaring med hvordan innlogging, betaling og database må fungere sammen i en større applikasjon. Arbeidet med tabeller og relasjoner lærte meg å følge data gjennom flere deler av løsningen og feilsøke når oppdateringer ikke fungerte som forventet.
-
-Prosjektet ga meg også erfaring med å utvikle i et team, dokumentere teknisk arbeid og forklare fremdrift og løsninger for en ekstern oppdragsgiver.
